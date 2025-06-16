@@ -1,36 +1,36 @@
 ## 🎨 Cool Terminal Animation Tools (CLI Eye Candy)
 
-Here’s a list of fun and aesthetic CLI tools that bring your terminal to life — great for dotfile lovers, minimal setups like i3wm, or just nerdy fun.
+Bring your terminal to life with these fun and aesthetic command-line tools — perfect for minimal setups like i3wm or just for fun! 😎
 
 ---
 
-### 1. `cmatrix` – Matrix Code Rain
+### 1. 🧪 `cmatrix` – Matrix Code Rain
 
-Simulates the green digital rain from *The Matrix*.
+Simulates the iconic falling green characters from *The Matrix*.
 
 ```bash
 sudo pacman -S cmatrix
 cmatrix -C green
 ```
 
-**Options:**
+🔧 **Options:**
 
-* `-C [color]` – change color (e.g., red, blue, white)
+* `-C [color]` – change color (red, blue, white, etc.)
 * `-s` – slow scroll
 * `-b` – bold characters
 
 ---
 
-### 2. `pipes.sh` – Terminal Pipes Screensaver
+### 2. 🧩 `pipes.sh` – Terminal Pipes Screensaver
 
-Draws random colored pipe paths across your terminal.
+Animated, colorful pipes grow across your terminal like a screensaver.
 
 ```bash
 sudo pacman -S pipes.sh
 pipes.sh
 ```
 
-**Options:**
+🔧 **Options:**
 
 * `-t` – thinner lines
 * `-p 4` – number of pipes
@@ -38,83 +38,83 @@ pipes.sh
 
 ---
 
-### 3. `asciiquarium` – Animated ASCII Aquarium
+### 3. 🐠 `asciiquarium` – ASCII Aquarium
 
-A fun, animated aquarium with fish, submarines, and bubbles.
+Animated fish, submarines, and sea bubbles — in pure ASCII art.
 
 ```bash
 yay -S asciiquarium
 asciiquarium
 ```
 
-> Requires Perl + `Term::Animation`
+⚠️ Requires: `perl` + `Term::Animation` (auto-installed from AUR)
 
 ---
 
-### 4. `sl` – Steam Locomotive
+### 4. 🚂 `sl` – Steam Locomotive
 
-A humorous ASCII train that chugs across your screen if you mistype `ls`.
+Misspelled `ls`? Surprise! Here comes a steam locomotive in your terminal.
 
 ```bash
 sudo pacman -S sl
 sl
 ```
 
-**Options:**
+🔧 **Options:**
 
-* `-a` – accident/crash
+* `-a` – crash animation (accident)
 * `-l` – smaller train
 * `-F` – force run
-* `-e` – sound (if available)
+* `-e` – sound (if supported)
 
 ---
 
-### 5. `tty-clock` – Terminal Clock
+### 5. 🕒 `tty-clock` – Terminal Clock
 
-A sleek digital clock for your terminal.
+Minimal, large, digital clock in your terminal window.
 
 ```bash
 sudo pacman -S tty-clock
 tty-clock -s -c -C 4
 ```
 
-**Options:**
+🔧 **Options:**
 
-* `-s` – seconds
-* `-c` – center
-* `-C [color]` – color (1–7)
+* `-s` – show seconds
+* `-c` – center the clock
+* `-C` – set color (1–7)
 
 ---
 
-### 6. `cacafire` – ASCII Fire Animation
+### 6. 🔥 `cacafire` – ASCII Fire
 
-Creates a fire animation in ASCII characters using libcaca.
+Generates a blazing fire animation in ASCII using libcaca.
 
 ```bash
 sudo pacman -S libcaca
 cacafire
 ```
 
-> Requires an XTerm-compatible terminal to render properly.
+⚠️ Best viewed in XTerm-compatible terminals.
 
 ---
 
-### 7. `oneko` – Cat Chasing Mouse Cursor (X11)
+### 7. 🐱 `oneko` – Cat Follows Cursor (X11)
 
-A cute cat that follows your mouse cursor around the screen.
+A cute cat that chases your mouse cursor across the screen.
 
 ```bash
 yay -S oneko
 oneko
 ```
 
-> Works only in X11 environments (not in pure tty).
+📌 X11 only (does not work in tty or Wayland).
 
 ---
 
-### 8. `aafire` – ANSI ASCII Fire (Alternative)
+### 8. 🔥 `aafire` – ANSI Fire (Lightweight Alt)
 
-An alternative flame animation using AAlib.
+Another fire animation, simpler and faster with AAlib.
 
 ```bash
 sudo pacman -S aview
@@ -123,34 +123,34 @@ aafire
 
 ---
 
-### 9. `glow` – Markdown Viewer in the Terminal
+### 9. 📖 `glow` – Markdown Viewer in Terminal
 
-Not an animation, but beautifully renders Markdown in your terminal.
+Renders Markdown beautifully right inside your terminal.
 
 ```bash
 sudo pacman -S glow
 glow README.md
 ```
 
+📚 Supports local files and GitHub READMEs.
+
 ---
 
-### 10. `chafa` – Image to ASCII Art Converter
+### 10. 🖼️ `chafa` – Image to ASCII Art
 
-Converts images to colorful or grayscale ASCII.
+Convert images to colorful ASCII art. Supports 256 colors, truecolor, sixel, etc.
 
 ```bash
 sudo pacman -S chafa
 chafa image.png
 ```
 
-Supports sixel, iTerm2 graphics, 256-color, etc.
-
 ---
 
-## 💬 Bonus Suggestions:
+## ✨ Bonus Picks:
 
-* `nyancat` – rainbow cat flying across your terminal
-* `cbonsai` – randomly growing ASCII bonsai trees
-* `neofetch` / `ufetch` – system info with style
-* `boxes` – draw ASCII boxes around your text
-* `lolcat` – rainbow-colored output for any command
+* 🐱 `nyancat` – classic rainbow cat flying across your terminal
+* 🌱 `cbonsai` – grows beautiful ASCII bonsai trees
+* 📟 `neofetch` / `ufetch` – show system info with style
+* 📦 `boxes` – draw ASCII boxes around text
+* 🌈 `lolcat` – rainbow colorizes any output (`echo Hello | lolcat`)
